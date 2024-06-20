@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import * as apiClient from "./apiClient";
 import NavBar from "./components/NavBar";
 import ResultCard from "./components/ResultCard";
-import type { ApiResponse } from "./types/apiResponse";
 import { useResultContext } from "./contexts/Results";
+import type { ApiResponse } from "./types/apiResponse";
 
 function App() {
     const {
