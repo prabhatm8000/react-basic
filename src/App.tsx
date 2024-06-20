@@ -57,7 +57,7 @@ function App() {
                 handleSubmit={handleSubmit}
                 setIsSearchQueryEmpty={setIsSearchQueryEmpty}
             />
-            <div className="container mx-auto pt-24">
+            <div className="container mx-auto pt-40 md:pt-24 px-3">
                 <div className=" flex items-center gap-1 my-2">
                     <span className="italic">Result counts:</span>
                     <span>{fetchResults?.count}</span>

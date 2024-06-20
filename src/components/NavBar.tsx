@@ -9,7 +9,7 @@ const NavBar = ({
 }) => {
     return (
         <nav className="bg-amber-200 fixed w-full">
-            <div className="flex justify-between items-center container mx-auto p-6">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 container mx-auto p-6">
                 <h1 className="text-5xl text-black/80 font-semibold">
                     Pokemon
                 </h1>
